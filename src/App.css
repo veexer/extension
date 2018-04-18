@@ -1,0 +1,88 @@
+body {
+  width: 520px;
+  margin: auto;
+  height: auto;
+}
+.app {
+  text-align: center;
+  width: 520px;
+  margin: auto;
+  display: inline-block;
+  height: 100%;
+  background-color:#121d2d;
+  border: 5px solid
+}
+
+section#root {
+  height: auto;
+}
+.app-header {
+  height: auto;
+  margin-top: 20px;
+  color: white;
+  display: inline-block !important;
+  width: 100%;
+}
+.info {
+  position: relative;
+  margin-top: 50px;
+}
+.forma {
+  width: 200px;
+  margin: auto;
+  height: 70px;
+  bottom: 0px;
+  box-shadow: 10px 10px;
+  margin-top: 10px;
+}
+
+.addinput {
+  width: 200px;
+  height: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  display: inline-block;
+
+}
+.inputbutton {
+  width: 204px;
+  height: 30px;
+  display: inline-block;
+  font-size: 20px;
+}
+input:focus {
+    outline:none;
+}
+button:focus {
+    outline:none;
+}
+.place {
+  width: 100%;
+  border-top: 5px solid black;
+}
+.clearbutton {
+  width: 204px;
+  height: 60px;
+  display: inline-block;
+  font-size: 20px;
+}
+.botinfo {
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.strumbutton {
+  width: 150px;
+  height: 40px;
+  font-size: 17px;
+  background: black;
+  color: white;
+  border: 2px solid #11ff05;
+  display: inline-block;
+  margin: 3px;
+   flex-wrap: nowrap;
+}
+.wrap {
+  display: inline-block;
+}
